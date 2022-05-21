@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+.navbar {
+    background-color: #e7e7e7;
+    padding: 0.1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left: 170px;
+}
+
+.nav-text {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Luckiest Guy', cursive;
+    background: -webkit-linear-gradient(#BC70A4, #BFD641);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-title {
+    text-decoration: none;
+    color: white;
+}

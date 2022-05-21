@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.play-list {
+    width: 40%;
+    border: 0.1px solid #BFD641;
+    margin: 10px 20px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.movie-card-in-list {
+    border: 0.1px solid #BFD641;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.list-name{
+    color: #BFD641;
+}
+
+.border-none {
+    border: none;
+}
+
+.remove-submit {
+    height: 51px;
+    margin: 0;
+    padding: 0rem 1.3rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+}
+
+.remove-button {
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 0.7rem;
+    line-height: 1.15;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    background: #ff0c0c;
+    color: white;
+    border: 1px solid transparent;
+    vertical-align: middle;
+    text-shadow: none;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.remove-button:hover,
+.remove-button:active,
+.remove-button:focus {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    outline: 0;
+}
+
+
+.card-image img {
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.card-title {
+    font-size: 0.6rem;
+    color: #BFD641;
+}
+
+.list-name-bar {
+    width: auto;
+}
+
+.list-button {
+    text-decoration: none;
+    padding: 1rem 1.3rem;
+    border-radius: 0.4rem;
+    margin-top: 1rem;
+}
+
+.margin-top {
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .play-list {
+        border-top: 0.1px solid #d2e8ff;
+        width: 100%;
+    }
+}
